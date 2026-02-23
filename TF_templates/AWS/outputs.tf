@@ -37,3 +37,7 @@ output "instance_summary" {
     }
   }
 }
+
+output "aap_workflow_job" {
+  value = aap_workflow_job.workflow_job
+}
